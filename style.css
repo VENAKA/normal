@@ -53,14 +53,17 @@ body{
 }
 .header_right-side {
     display: flex;
+    justify-content: space-between;
 }
 .header_right-arow {
     border: 3px solid #ffffff;
     width: 30px;
     height: 20px;
+    margin: 5px;
 
 }
 .right_text-side {
+margin: 5px;
 
 }
 .stop {
