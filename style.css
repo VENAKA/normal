@@ -9,8 +9,6 @@
 body{
     background-color: rgb(57, 57, 57);
 }
-.head {
-}
 .head_bodi {
     display: flex;
     padding: 25px;
@@ -69,4 +67,86 @@ margin: 5px;
 .stop {
     color: rgba(106, 106, 221, 0.722);
     margin: 5px;
+}
+.menu {
+    width:1530px ;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.strem {
+    width: 950px;
+    height: 500px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(./img/chatgpt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.peple_1 {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url(./img/professiya-uchitelya-vuzy-chehii.jpg);
+    background-size: cover;
+}
+.peple_2 {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+    background-image:url(./img/Oskorblenie-uchitelya.jpg) ;
+    background-size: cover;
+}
+.peple_3 {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url(./img/368427_1.jpg);
+    background-size:cover;
+}
+.peple_4 {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url(./img/UN0497659.jpg);
+    background-size:cover;
+
+}
+.peple_5 {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+    background-size:cover;
+    background-image: url(./img/завантаження.jfif);
+}
+.more {
+    width: 250px;
+    height: 150px;
+    background-color: rgba(68, 65, 65, 0.611);
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    color: rgb(255, 254, 254);
+}
+.peple {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.more_peple {
+    margin: 70px auto;
 }
